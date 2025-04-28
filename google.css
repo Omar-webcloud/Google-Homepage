@@ -137,3 +137,28 @@ section .footer .row ul li a{
     color: #1f2020;
     margin-right: 25px;
 }
+
+/*MObile view*/
+@media (max-width:768px){
+    section .main .searchbox .search{
+        width: 78%;
+    }
+    section .main .searchbox .icons{
+        width: 85%;
+    }
+
+    section .footer .row ul{
+        display: block;
+    }
+}
+/*desktop*/
+@media(min-width:1024px){
+
+}
+
+/*tab*/
+
+@media(min-width:769px) and (max-width:1023px)
+{
+    
+}
